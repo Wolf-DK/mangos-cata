@@ -364,6 +364,7 @@ class Spell
         void EffectQuestFail(SpellEffectEntry const* effect);
         void EffectQuestOffer(SpellEffectEntry const* effect);
         void EffectActivateRune(SpellEffectEntry const* effect);
+        void EffectCreateTamedPet(SpellEffectEntry const* effect);
         void EffectTeachTaxiNode(SpellEffectEntry const* effect);
         void EffectWMODamage(SpellEffectEntry const* effect);
         void EffectWMORepair(SpellEffectEntry const* effect);
