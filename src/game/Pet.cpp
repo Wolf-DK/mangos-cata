@@ -747,7 +747,7 @@ void Pet::GivePetLevel(uint32 level)
 
     InitStatsForLevel(level);
     if (level >10) // only update spell for pets above level 10
-    InitLevelupSpellsForLevel();
+    	InitLevelupSpellsForLevel();
     InitTalentForLevel();
 }
 
